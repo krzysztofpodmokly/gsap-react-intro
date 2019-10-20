@@ -1,9 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+  visibility: hidden;
 }
 
 .App-header {
@@ -17,6 +14,18 @@
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color: #fdcf51;
+  margin: 50px;
+}
+
+.circle.red {
+  background-color: #fd5151;
+}
+
+.circle.blue {
+  background-color: #51A0fd;
 }
